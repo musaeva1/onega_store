@@ -53,7 +53,7 @@ body {
 
 .well-come {
 
-    background: url("/img/gradient_bg.png") no-repeat, url("/img/bg.png") no-repeat;
+    background: url("../img/gradient bg.png") no-repeat, url("/img/bg.jpg") no-repeat;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -64,7 +64,7 @@ body {
     height: 850px;
     left: 0;
     top: 0;
-
+    border-radius: 10px 10px 0 0;
 }
 
 ._top {
@@ -161,7 +161,7 @@ body {
     padding-right: 100px;
 }
 
-.logo {
+.logo_header {
     position: absolute;
     margin: 20px 0 0 130px;
     color: #ffffff;
@@ -237,13 +237,451 @@ h1 {
 }
 
 /*------------- <section class="tours"></section> */
+.tours {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    left: 120px;
+    top: 770px;
+}
+
+.header_tour {
+    font-family: 'FreeSetC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #707070;
+    text-align: left;
+    width: 263px;
+    height: 207px;
+    left: 120px;
+    top: 899px;
+    padding-top: 150px;
+}
+
+h2 {
+    font-family: 'FreeSetDemiC', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+    border-bottom: 10px solid #d9e7f0;
+    width: 85px;
+    /*opacity: 0.15;*/
+}
+
+.header_tour p {
+    position: relative;
+    padding-top: 30px;
+}
+
+.content_tour {
+    position: absolute;
+    width: 887px;
+    height: 0;
+    left: 433px;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content_hike {
+    width: 262px;
+    height: 400px;
+    left: 433px;
+    top: 0;
+    background: url("../img/hike_gradient.png"), url("../img/hike.jpg");
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.content_hike h3 {
+    font-family: 'FreeSetDemiC', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 25px 21px 0 30px;
+    color: #FFFFFF;
+}
+
+.content_hike p {
+    font-family: 'FreeSetC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 13px 31px 0 30px;
+}
+
+.content_hike button {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 200px 31px 0 30px;
+    background-color: rgba(28,28,28,0);
+    width: 199px;
+    height: 50px;
+    left: 465px;
+    top: 1090px;
+    color: #FFFFFF;
+}
+
+.content_pigeon {
+    position: absolute;
+    width: 262px;
+    height: 0;
+    left: 345px;
+    top: 0;
+    background: url("../img/pigeon_gradient.png"), url("../img/pigeon.jpg");
+}
+
+.content_pigeon h3 {
+    font-family: 'FreeSetDemiC', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 25px 21px 0 30px;
+    color: #FFFFFF;
+}
+
+/*.button_hike {*/
+/*    margin: 200px 30px 0 30px;*/
+/*}*/
 
 /*------------- <section class="excursions"></section>*/
 
 /*------------- <section class="hotel"></section> */
 
 /*------------- <section class="products"></section> */
+.fon-product     {
+    margin-top: 2222px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    background: #F2F7FC;
+    justify-content: center;
+}
+.text-product{
+    margin-left: 9%;
+    Font-family: FreeSetDemiC;
+    Font-size: 34px;
+    Line-height: 100%;
 
+}
+.product-card {;
+    width: 263px;
+    height: 433px;
+    background: #FFFFFF;
+    margin:25px;
+    border-radius: 10px;
+}
+
+.product-card-bloc{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.product-card-title{
+
+    Font-family: FreeSetDemiC;
+    color: black;
+    Font-size: 18px;
+    Line-height: 26px;
+    Vertical-align: Top;
+    Paragraph-spacing: 1px;
+}
+.product-card-category{
+    color: #00000080;
+}
+.product-card-price{
+    Font-family: FreeSetDemiC;
+
+    Font-size: 20px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    Paragraph-spacing: 1px;
+}
+.product-card-bye{
+    background-color: #FFFFFF;
+    color: #BD0202;
+    border:   1px solid  #BD0202;
+    border-radius: 5px;
+    padding: 14px 30px;
+    width: 100%;
+}
+.box-store{
+    width: 10000px;
+}
+.store{
+    margin: 2% 5% -5% 82%;
+    padding: 5px 20px 5px 20px;
+    background-color: #F2F7FC;
+    border:   1px solid #9AA2A9;
+    border-radius: 5px;
+    Font-family: FreeSetC, sans-serif;
+    Font-size: 14px;
+    Line-height: 24px;
+    Vertical-align: Top;
+}
+.product-card-price-crossed-out{
+    Font-family: FreeSetC,sans-serif;
+    Font-size: 20px;
+    Line-height: 100%;
+}
+.box-title{
+    Height: 56px;
+}
 /*------------- <section class="news"></section> */
 
 /*------------- <footer></footer>*/
+
+.footer {
+    background: #000;
+    position: relative;
+    width: auto;
+    min-width: 320px;
+    width: 100%;
+    height: 508px;
+    left: 0;
+    top: 3816px;
+
+    font-family: 'FreeSetC';
+}
+
+.footer_top {
+    display: flex;
+    background: #232323;
+    position: absolute;
+    width: 100%;
+    height: 421px;
+    left: 0;
+    top: 0;
+
+}
+
+.footer_bottom {
+    background: #232323;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0;
+    top: 420px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1);;
+}
+
+h3,h4,h5,h6,p {
+    color: #ffffff;
+}
+
+.footer_end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.confidence {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.contacts-footer_phone, .contacts-footer_mail {
+    color: #ffffff;
+}
+
+.footer_main {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.contact {
+    font-family: 'FreeSetDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-bottom: 5px;
+}
+
+.footer_logo {
+    margin-bottom: 30px;
+}
+
+.contacts-footer_phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.contacts-footer_mail {
+    font-family: 'FreeSetC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+
+.footer_navigation {
+    display: block;
+    position: absolute;
+    width: 532px;
+    height: 321px;
+    left: 745px;
+    top: 50px;
+}
+
+.h3_style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+
+    margin-bottom: 33px;
+}
+
+.footer_news {
+    position: absolute;
+    width: 263px;
+    height: 317px;
+    left: 430px;
+    top: 50px;
+}
+
+.input_mail {
+    width: 262px;
+    height: 50px;
+    background: #232323;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+
+.news_body {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mailing {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.contract {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.conditions {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social_media {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.media_body {
+    position: absolute;
+    display: flex;
+}
+
+.footer_media {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.media_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subscribe_form {
+    position: relative;
+    display: flex;
+}
+
+.subscribe_button {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+.footer_columns {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.footer_column_1 {
+    position: absolute;
+    width: 218px;
+    height: 233px;
+    left: 0;
+    top: 88px;
+}
+
+.footer_column_2 {
+    position: absolute;
+    width: 218px;
+    height: 233px;
+    left: 313px;
+    top: 88px;
+}
+
+.navigation-footer_link {
+    color: #ffffff;
+}
+
+.navigation-footer_body {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icon_arrow {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
